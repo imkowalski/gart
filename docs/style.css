@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+iframe {
+    padding: 30px;
+    background-color: rgb(255, 246, 233);
+    border: 16px solid;
+    border-color: black;
+    box-shadow: -5px 5px 20px black;
+}
