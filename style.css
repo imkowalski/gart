@@ -5,7 +5,7 @@ html {
     padding: 0;
 }
 
-div {
+.a {
     height: 100vh;
     background-color: cadetblue;
     display: flex;
@@ -17,9 +17,18 @@ div {
 }
 
 iframe {
+    width: 400px;
+    height: 400px;
     padding: 30px;
     background-color: rgb(255, 246, 233);
     border: 16px solid;
     border-color: black;
     box-shadow: -5px 5px 20px black;
+}
+
+.plaquet {
+    background-color: rgb(255, 246, 233);
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: -2px 2px 6px black;
 }
